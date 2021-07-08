@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+  min-height: 100vh;
+
+  font-size: 62.5%;
+}
+
+body > .container {
+  font-size: 1.6rem;
+}
+
+.container header {
+  box-shadow: 0 0 .5rem .2rem rgba(0,0,0,0.2);
+  
+  padding: 1rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container header #logo h1 {
+  font-weight: 300;
+}
+
+main .card-user {
+  background: #e7e7e7;
+  margin: 2rem 0.4rem;
+
+  max-width: 80rem;
+
+  margin: 2rem auto;
+
+  padding: 2rem 2rem;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .2rem;
+}
+
+main .card-user > div {
+  margin: .8rem;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  color: #888;
+}
