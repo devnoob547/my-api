@@ -3,6 +3,6 @@ const routes = Router()
 
 const clients = require('./data.json')
 
-routes.get('/clients', (req, res) => res.json(clients).sendStatus(200))
+routes.get('/clients', (req, res) => res.json(clients))
 
 module.exports = routes
